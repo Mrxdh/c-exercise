@@ -4,7 +4,7 @@ int main() {
   char s1[100] = "";
   char s2[] = "我爱,";
   char s3[] = "大米";
-  /*在以下补全代码*/
+
   strcat(s1, s2);
   strcat(s1, s3);
 
