@@ -19,7 +19,9 @@ int main(int argc, char const *argv[])
     int d;
     
     // 变量在没有进行初始化之前，不要拿来使用，因为它里面存储的是一些垃圾数据
-    printf("%d", d);
+    printf("%d\n", d);
+
+    printf("My height is %.2f", 179.95f);
 
     return 0;
 }
